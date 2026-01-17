@@ -6,9 +6,8 @@ import io.restassured.path.json.JsonPath;
 
 public class SumValidation {
 
-//	@Test
-	public static void main(String[] args) {
-//	public void sumOfCourses() {
+	@Test
+	public void sumOfCourses() {
 
 		JsonPath js = new JsonPath(Payload.CoursePrice());
 		int count = js.getInt("courses.size()");
