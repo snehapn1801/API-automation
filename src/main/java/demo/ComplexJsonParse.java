@@ -1,3 +1,4 @@
+package demo;
 import files.Payload;
 import io.restassured.path.json.JsonPath;
 import io.restassured.path.json.JsonPath;
